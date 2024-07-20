@@ -1,0 +1,16 @@
+{
+    "name": "acf/text",
+    "title": "Text",
+    "description": "Simple Text Block",
+    "icon": "text",
+    "acf": {
+      "mode": "edit",
+      "renderTemplate": "template.php"
+    },
+    "supports": {
+      "mode": false,
+      "anchor": true,
+      "align": false,
+      "jsx": false
+    }
+  }

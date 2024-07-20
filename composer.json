@@ -1,0 +1,22 @@
+{
+    "name": "elf02/wp-starter",
+    "authors": [
+        {
+            "name": "elf02",
+            "email": "chris@elf02.de"
+        }
+    ],
+    "require": {
+        "vinkla/extended-acf": "^14.2",
+        "symfony/var-dumper": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "e02\\": "src/"
+        },
+        "files": [
+            "src/helper.php",
+            "src/cleaner.php"
+        ]
+    }
+}

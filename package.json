@@ -1,0 +1,21 @@
+{
+  "name": "wp-starter",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
+    "browser-sync": "^3.0.2",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-purgecss": "^6.0.0",
+    "gulp-remove-sourcemaps": "^1.0.5",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "jquery": "^3.7.1",
+    "sass": "^1.77.8"
+  }
+}

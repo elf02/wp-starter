@@ -1,0 +1,16 @@
+{
+    "name": "acf/layout",
+    "title": "Layout",
+    "description": "Layout Block",
+    "icon": "layout",
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "template.php"
+    },
+    "supports": {
+      "mode": false,
+      "anchor": true,
+      "align": false,
+      "jsx": true
+    }
+  }

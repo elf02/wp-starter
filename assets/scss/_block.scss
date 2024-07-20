@@ -1,0 +1,42 @@
+// Block spacings
+.block-my-none {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.block-my-default {
+    padding-top: toRem(35) !important;
+    padding-bottom: toRem(35) !important;
+}
+
+.block-my-80-0 {
+    padding-top: toRem(35) !important;
+    padding-bottom: toRem(0) !important;
+}
+
+.block-my-0-80 {
+    padding-top: toRem(0) !important;
+    padding-bottom: toRem(35) !important;
+}
+
+@include media-breakpoint-up(md) {
+    .block-my-none {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .block-my-default {
+        padding-top: toRem(50) !important;
+        padding-bottom: toRem(50) !important;
+    }
+
+    .block-my-80-0 {
+        padding-top: toRem(50) !important;
+        padding-bottom: toRem(0) !important;
+    }
+
+    .block-my-0-80 {
+        padding-top: toRem(0) !important;
+        padding-bottom: toRem(50) !important;
+    }
+}
