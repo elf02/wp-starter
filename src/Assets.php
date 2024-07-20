@@ -23,36 +23,36 @@ class Assets
     {
         // vendor js
         wp_enqueue_script(
-            'e02-vendor-js',
+            'e02-vendor',
             get_theme_file_uri('assets/dist/js/vendor.js'),
             ['jquery'],
-            $this->asset_hash(get_theme_file_uri('assets/dist/js/vendor.js')),
+            $this->asset_hash(get_theme_file_path('assets/dist/js/vendor.js')),
             true
         );
 
         // main js
         wp_enqueue_script(
-            'e02-main-js',
+            'e02-main',
             get_theme_file_uri('assets/dist/js/scripts.js'),
-            ['e02-vendor-js'],
-            $this->asset_hash(get_theme_file_uri('assets/dist/js/scripts.js')),
+            ['e02-vendor'],
+            $this->asset_hash(get_theme_file_path('assets/dist/js/scripts.js')),
             true
         );
 
         // vendor css
         wp_enqueue_style(
-            'e02-vendor-css',
+            'e02-vendor',
             get_theme_file_uri('assets/dist/css/vendor.css'),
             [],
-            $this->asset_hash(get_theme_file_uri('assets/dist/css/vendor.css')),
+            $this->asset_hash(get_theme_file_path('assets/dist/css/vendor.css')),
         );
 
         // main css
         wp_enqueue_style(
-            'e02-main-css',
+            'e02-main',
             get_theme_file_uri('assets/dist/css/style.css'),
-            ['e02-vendor-css'],
-            $this->asset_hash(get_theme_file_uri('assets/dist/css/style.css')),
+            ['e02-vendor'],
+            $this->asset_hash(get_theme_file_path('assets/dist/css/style.css')),
         );
     }
 }
