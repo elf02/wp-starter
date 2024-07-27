@@ -16,6 +16,7 @@ class ACF
         add_action('after_setup_theme', [$this, 'add_options_page']);
         add_filter('acf/load_field/name=block_spacing', [$this, 'load_block_spacing_choices']);
         add_filter('e02/block/classes', [$this, 'add_global_block_classes'], 10, 3);
+        add_filter('acf/blocks/wrap_frontend_innerblocks', '__return_false', 10, 2);
 
         // Hide ACF menu
         add_filter('acf/settings/show_admin', '__return_false');
