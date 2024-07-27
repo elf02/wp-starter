@@ -10,7 +10,6 @@
     "supports": {
       "mode": false,
       "anchor": true,
-      "align": false,
-      "jsx": false
+      "align": false
     }
   }
